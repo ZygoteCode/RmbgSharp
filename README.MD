@@ -13,3 +13,7 @@ By harnessing the power of the optimized ONNX Runtime and its seamless integrati
 Furthermore, the availability of ONNX models in both FP32 and FP16 formats allows developers to fine-tune the library for optimal precision or speed, depending on their specific requirement.
 
 RmbgSharp stands out as the sole C# library that integrates the efficiency of the RMBG-2.0 AI model for background removal in .NET projects, marking a significant advancement in the tools available to C# developers.
+
+## ✨ Key Features
+
+- **Unmatched Speed and Performance:** Experience remarkably fast background removal, a direct result of the optimized ONNX Runtime working in concert with hardware-accelerated DirectML 1. The ONNX Runtime is designed as a high-performance engine for executing machine learning models efficiently across different platforms and hardware 5. DirectML further amplifies this efficiency by enabling the utilization of the GPU's parallel processing capabilities for machine learning tasks 6. This combination allows RmbgSharp to perform background removal at speeds previously unattainable in C# using AI-based methods.
