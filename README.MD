@@ -26,3 +26,83 @@ RmbgSharp stands out as the sole C# library that integrates the efficiency of th
 
 ## 🛠️ Installation
 
+```sh
+# Install ONNXRuntime and ML.NET
+Install-Package Microsoft.ML.OnnxRuntime
+Install-Package Microsoft.ML
+Install-Package Microsoft.ML.OnnxRuntime.DirectML
+```
+
+## 🧑‍💻 Example Usage
+
+```csharp
+﻿using RmbgSharp;
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.Title = "RmbgSharp | Made by https://github.com/ZygoteCode/";
+        Console.WriteLine("Removing the background from \"input.png\", please wait a while.");
+
+        BackgroundRemover backgroundRemover = new BackgroundRemover("rmbg_2.0_fp32.onnx", false, true);
+        backgroundRemover.RemoveBackground("input.png", "output.png");
+
+        Console.WriteLine("Succesfully removed the background from \"input.png\"!");
+        Console.WriteLine("The result image is exported as \"output.png\".");
+        Console.WriteLine("Press the ENTER key in order to exit from the application.");
+
+        Console.ReadLine();
+    }
+}
+```
+
+## 🌟 Contributing
+
+Contributions are welcome there! 🚀 Follow these steps to create a **Pull Request (PR):**
+
+1. **Fork the repository**
+2. **Clone your fork**:
+   ```sh
+   git clone https://github.com/your-username/VadSharp.git
+   ```
+3. **Create a new branch**:
+   ```sh
+   git checkout -b feature-branch
+   ```
+4. **Make your changes & commit**:
+   ```sh
+   git add .
+   git commit -m "Your awesome feature!"
+   ```
+5. **Push the branch & create a PR**:
+   ```sh
+   git push origin feature-branch
+   ```
+6. **Open a PR on GitHub**
+
+---
+
+## 🐛 Issues & Bug Reports
+
+If you find a bug or have a feature request, please **open an issue**:
+
+1. Go to the [Issues Tab](https://github.com/ZygoteCode/RmbgSharp/issues).
+2. Click on **"New Issue"**.
+3. Provide a **clear and concise** description of the problem.
+4. If possible, include **screenshots and logs**.
+
+I will review and respond ASAP! 🚀
+
+---
+
+## ✨ Credits
+
+All of my credits go to the original inventor of the [RMBG-2.0](https://huggingface.co/briaai/RMBG-2.0) project,
+which has worked hard to the architecture of the algorithm and trained the models!
+
+## 📜 License
+
+RmbgSharp is licensed under the **MIT License**. Feel free to use, modify, and distribute it as you like!
+
+📌 **Made with ❤️ by [ZygoteCode](https://github.com/ZygoteCode/)**
