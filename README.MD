@@ -16,13 +16,13 @@ RmbgSharp stands out as the sole C# library that integrates the efficiency of th
 
 ## ✨ Key Features
 
-- **🚀 Unmatched Speed and Performance:** Experience remarkably fast background removal, a direct result of the optimized ONNX Runtime working in concert with hardware-accelerated DirectML. The ONNX Runtime is designed as a high-performance engine for executing machine learning models efficiently across different platforms and hardware. DirectML further amplifies this efficiency by enabling the utilization of the GPU's parallel processing capabilities for machine learning tasks. This combination allows RmbgSharp to perform background removal at speeds previously unattainable in C# using AI-based methods.
-- **🎯 High Accuracy:** The library's foundation on the state-of-the-art RMBG-2.0 model from BRIA AI guarantees highly accurate background segmentation. This model represents a significant improvement over previous versions, demonstrating enhanced effectiveness in separating foreground from background across a wide variety of image categories. Its performance is comparable to leading source-available models, ensuring that RmbgSharp provides results of exceptional quality.
-- **⚙️ ONNX Runtime Power:** RmbgSharp leverages the efficiency and inherent cross-platform capabilities of ONNX Runtime for seamless execution of the background removal model. While RmbgSharp is specifically designed for C#, ONNX Runtime itself is a cross-platform machine learning model accelerator, supporting various operating systems and hardware architectures. This foundational technology ensures robust and optimized performance within the C# environment.
-- **⚡ DirectML Acceleration:** RmbgSharp achieves near-instant background removal on a wide array of DirectX 12-compatible GPUs (including those from NVIDIA, AMD, Intel, and Qualcomm) through its seamless integration with DirectML. DirectML is a high-performance, hardware-accelerated DirectX 12 library specifically designed for machine learning tasks on Windows. By utilizing DirectML as an execution provider for ONNX Runtime, RmbgSharp can significantly improve the evaluation time of the background removal model on readily available GPU hardware.
-- **🖼️ Flexible Resolution Support:** RmbgSharp is engineered to process images of virtually any size without a noticeable compromise in performance or accuracy. Both RmbgSharp and the underlying RMBG-2.0 model are designed to handle varying image resolutions effectively. This capability ensures that users are not restricted by image dimensions and can seamlessly integrate the library into diverse applications dealing with images of different sizes.
-- **💾 FP32 & FP16 Models:** RmbgSharp provides the flexibility to choose between Full Precision (FP32) models for scenarios demanding the highest possible accuracy and Half Precision (FP16) models for applications where reduced memory consumption and potentially faster inference speeds are prioritized. ONNX Runtime supports both of these floating-point formats 3, allowing RmbgSharp to cater to a wide range of hardware capabilities and performance requirements.
-- **🥇 First and Only C# Solution:** RmbgSharp distinguishes itself as the pioneering C# library to harness the efficiency of the RMBG-2.0 model for AI-powered background removal directly within .NET applications. This library addresses a previously unmet need within the C# development community, providing a unique and powerful tool for image processing tasks.
+- **🚀 Unmatched Speed and Performance:** Experience ultra-fast background removal with AI-powered efficiency, thanks to the optimized ONNX Runtime and GPU-accelerated DirectML.
+- **🎯 High Accuracy:** RmbgSharp delivers exceptional background segmentation using the advanced RMBG-2.0 model, ensuring highly accurate results across diverse image categories.
+- **⚙️ ONNX Runtime Power:** RmbgSharp harnesses ONNX Runtime's cross-platform efficiency for seamless, optimized background removal performance in C#.
+- **⚡ DirectML Acceleration:** RmbgSharp delivers near-instant background removal by leveraging DirectML for high-performance GPU acceleration across a wide range of DirectX 12-compatible devices (NVIDIA, AMD, Intel).
+- **🖼️ Flexible Resolution Support:** RmbgSharp processes images of any size with flawless performance and accuracy, making it versatile for diverse applications.
+- **💾 FP32 & FP16 Models:** RmbgSharp offers flexibility with Full Precision (FP32) for maximum accuracy and Half Precision (FP16) for faster speeds and lower memory use, optimizing performance for diverse hardware.
+- **🥇 First and Only C# Solution:** RmbgSharp is the first C# library to integrate the powerful RMBG-2.0 model for AI-driven background removal, filling a crucial gap in .NET image processing.
 
 ## 🛠️ Installation
 
@@ -64,7 +64,7 @@ Contributions are welcome there! 🚀 Follow these steps to create a **Pull Requ
 1. **Fork the repository**
 2. **Clone your fork**:
    ```sh
-   git clone https://github.com/your-username/VadSharp.git
+   git clone https://github.com/your-username/RmbgSharp.git
    ```
 3. **Create a new branch**:
    ```sh
