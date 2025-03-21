@@ -6,7 +6,7 @@
 
 The first and only C# library leveraging the cutting-edge "RMBG-2.0" AI model by BRIA AI for incredibly efficient, effective, and precise background removal! ⚡
 
-This library is built upon the foundation of the remarkable(https://huggingface.co/briaai/RMBG-2.0) (🙏 Thank you BRIA AI for making this model accessible for non-commercial fair use!), providing unparalleled background removal capabilities for developers working within the C# ecosystem.
+This library is built upon the foundation of the remarkable [BRIA AI](https://huggingface.co/briaai/RMBG-2.0) (🙏 Thank you BRIA AI for making this model accessible for non-commercial fair use!), providing unparalleled background removal capabilities for developers working within the C# ecosystem.
 
 By harnessing the power of the optimized ONNX Runtime and its seamless integration with DirectML, RmbgSharp achieves near-instant processing on a diverse range of hardware, including GPUs from NVIDIA, AMD, and Intel. This capability extends to images of any resolution, ensuring flexibility and consistent performance across various applications.
 
