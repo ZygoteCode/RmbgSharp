@@ -4,7 +4,7 @@
 
 ## 🚀 RmbgSharp: The World's Fastest AI Background Removal Library for C#
 
-The first and only C# library leveraging the cutting-edge "RMBG-2.0" AI model by BRIA AI for incredibly efficient, effective, and precise background removal! ⚡
+**The first and only C# library leveraging the cutting-edge "RMBG-2.0" AI model by BRIA AI for incredibly efficient, effective, and precise background removal!** ⚡
 
 This library is built upon the foundation of the remarkable [BRIA AI](https://huggingface.co/briaai/RMBG-2.0) (🙏 Thank you BRIA AI for making this model accessible for non-commercial fair use!), providing unparalleled background removal capabilities for developers working within the C# ecosystem.
 
